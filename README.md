@@ -18,10 +18,10 @@ This is Web application which demonstrates basic CRUD operations, authentication
     - Present a list of all manufacturers.
 
 - **Perform CRUD Operations:**
-    - Create Allow users to create new drivers, cars, manufacturers.
-    - Read Enable users to retrieve and view their current cars, list of all cars, drivers and manufacturers.
-    - Update Allow users to assign registered drivers to existing cars.
-    - Delete Provide a way for users to remove drivers, cars, manufacturers.
+    - _Create_: Allow users to create new drivers, cars, manufacturers.
+    - _Read_: Enable users to retrieve and view their current cars, list of all cars, drivers and manufacturers.
+    - _Update_: Allow users to assign registered drivers to existing cars.
+    - _Delete_: Provide a way for users to remove drivers, cars, manufacturers.
 
 ## Project Structure
 This application consist of three layers:
@@ -50,7 +50,7 @@ This application consist of three layers:
 ## Installation:
 To launch the project you should follow following steps:
 1. You should have `MySQL` version `8.x.x` installed on your computer (you can download it here: [MySQL downloads](https://www.mysql.com/downloads/))
-2. Also you shoul have `Apache Tomcat` version `9.0.50` installed on your computer (you can download it here: [Tomcat 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/))
+2. Also, you should have `Apache Tomcat` version `9.0.50` installed on your computer (you can download it here: [Tomcat 9.0.50](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/))
 3. Clone this repository to your local computer.
 4. Open the project folder in `Intellij IDEA` IDE.
 5. Set up the configuration for `Tomcat`.
@@ -72,4 +72,7 @@ To launch the project you should follow following steps:
  
     ![ConnectionUtil example](img/img-06.png)
 8. Start Tomcat:
+
+    ![Start Tomcat](img/img-07.png)
+
 9. Open browser and enter the address: http://localhost:8080/
